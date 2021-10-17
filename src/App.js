@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ChatopsGroupsHome from "./ChatopsGroupHome";
+
+import { Route, Switch } from "react-router-dom";
+import GroupDetails from "./GroupDetails";
+import CreateGroup from "./CreateGroup";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route path="/" exact />
+        <Route path="/mui/groups" component={ChatopsGroupsHome} exact />
+        <Route path="/mui/groups/groupdetails/:groupName" component={GroupDetails}/>
+        {/* change group details to /groups/:id */}
+        <Route path="/mui/groups/create" component={CreateGroup} />
+      </Switch>
     </div>
   );
 }

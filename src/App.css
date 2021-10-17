@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.mainMargin {
+  margin-top: 3%;
+}
+
+.headerDiv {
+  background: #f4f7fb;
+}
+.sectionMargin {
+  padding: 2% 5%;
+}
+
+.searchDivMain {
+  width: 100%;
+  display: inline-flex;
+}
+.my-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.addBtnPACss {
+  margin-bottom: 0 !important;
+  margin: 0 0 0 auto !important;
+  margin-bottom: 0px;
+  float: right !important;
+}
+
+.formMain {
+  width: 60%;
+}
+.addAccBtn {
+  margin-bottom: 10px !important;
+  height: 30px;
+}
+
+.addBtnCss {
+  margin-bottom: 0 !important;
+  margin: 0 0 0 auto !important;
+  margin-bottom: 0px;
+}
+
+.addBtnPACss {
+  margin-bottom: 0 !important;
+  margin: 0 0 0 auto !important;
+  margin-bottom: 0px;
+  float: right !important;
+}
+.paddingCostom {
+  padding: 0% 5% !important;
+}
+.bx--text-input-wrapper {
+  padding-bottom: 20px !important;
+}
+
+.editIconPA{
+  width: 20px !important;
+}
